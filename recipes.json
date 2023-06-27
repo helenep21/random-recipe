@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Recipe 1",
+      "ingredients": [
+        "Ingredient A",
+        "Ingredient B",
+        "Ingredient C"
+      ]
+    },
+    {
+      "name": "Recipe 2",
+      "ingredients": [
+        "Ingredient D",
+        "Ingredient E",
+        "Ingredient F"
+      ]
+    },
+    {
+      "name": "Recipe 3",
+      "ingredients": [
+        "Ingredient G",
+        "Ingredient H",
+        "Ingredient I"
+      ]
+    }
+  ]
+  

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #recipesContainer {
+    margin-top: 20px;
+  }
+  
+  .recipe {
+    margin-bottom: 20px;
+  }
+  
+  .recipe h2 {
+    margin-bottom: 5px;
+  }
+  
+  #groceryList {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
