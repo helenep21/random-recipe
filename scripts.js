@@ -47,7 +47,7 @@ function displayRecipes(recipes) {
     const ingredientsList = document.createElement('ul');
     recipe.ingredients.forEach(ingredient => {
       const listItem = document.createElement('li');
-      listItem.textContent = ingredient;
+      listItem.textContent = `${ingredient.name}: ${ingredient.quantity}`;
       ingredientsList.appendChild(listItem);
     });
     
@@ -61,10 +61,10 @@ function generateGroceryList(recipes) {
   
   recipes.forEach(recipe => {
     recipe.ingredients.forEach(ingredient => {
-      if (groceryList[ingredient]) {
-        groceryList[ingredient]++;
+      if (groceryList[ingredient.name]) {
+        groceryList[ingredient.name] += ingredient.quantity;
       } else {
-        groceryList[ingredient] = 1;
+        groceryList[ingredient.name] = ingredient.quantity;
       }
     });
   });

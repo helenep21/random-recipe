@@ -2,26 +2,22 @@
     {
       "name": "Recipe 1",
       "ingredients": [
-        "Ingredient A",
-        "Ingredient B",
-        "Ingredient C"
+        {"name": "Ingredient A", "quantity": 3},
+        {"name": "Ingredient B", "quantity": 1}
       ]
     },
     {
       "name": "Recipe 2",
       "ingredients": [
-        "Ingredient D",
-        "Ingredient E",
-        "Ingredient F"
+        {"name": "Ingredient A", "quantity": 4},
+        {"name": "Ingredient C", "quantity": 2}
       ]
     },
     {
       "name": "Recipe 3",
       "ingredients": [
-        "Ingredient G",
-        "Ingredient H",
-        "Ingredient I"
+        {"name": "Ingredient B", "quantity": 2},
+        {"name": "Ingredient D", "quantity": 3}
       ]
     }
-  ]
-  
+]
